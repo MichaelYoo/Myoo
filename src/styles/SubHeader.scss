@@ -1,0 +1,23 @@
+@use '../index';
+
+.subHeaderWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    position: fixed;
+    top: 90px;
+}
+
+
+.subHeader {
+    color: index.$white;
+    font-family: "EikoThin";
+    font-size: 12pt;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    height: 60px;
+}

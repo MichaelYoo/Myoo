@@ -1,0 +1,12 @@
+@use '../index';
+
+.pageSection {
+    width: 100vw;
+    height: 100vh;
+    color: index.$white;
+    font-family: "EikoThin";
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

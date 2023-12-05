@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 79.2 71">
+  <defs>
+    <style>
+      .logoLines {
+        fill: none;
+        stroke: #FBF5F5;
+        stroke-miterlimit: 0;
+        stroke-width: 5px;
+      }
+    </style>
+  </defs>
+  <title>Logo</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <circle class="logoLines" cx="39.6" cy="28" r="25.5"/>
+        <line class="logoLines" x1="28.6" y1="27.86" x2="28.6" y2="71"/>
+        <line class="logoLines" x1="50.6" y1="27.86" x2="50.6" y2="71"/>
+        <line class="logoLines" y1="27.86" x2="79.2" y2="27.86"/>
+      </g>
+    </g>
+  </g>
+</svg>
