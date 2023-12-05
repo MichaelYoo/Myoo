@@ -3,12 +3,11 @@ $white: #FBF5F5;
 $softwhite: #fbf5f599;
 
 @font-face {
-  font-family: "EikoHeavy";
-  src: url("./assets/fonts/Eiko/PPEiko-Heavy.otf");
-}
-@font-face {
   font-family: "EikoThin";
-  src: url("./assets/fonts/Eiko/PPEiko-Thin.otf");
+  src: url("./assets/fonts/Eiko/PPEiko-Thin.otf") format("opentype"),
+  url("./assets/fonts/Eiko/PPEiko-Thin.ttf") format("truetype"),
+  url("./assets/fonts/Eiko/PPEiko-Thin.woff") format("woff"),
+  url("./assets/fonts/Eiko/PPEiko-Thin.woff2") format("woff2");
 }
 
 * { 
