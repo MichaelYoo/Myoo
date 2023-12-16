@@ -199,8 +199,8 @@ const Landing = ( {hideLanding} ) => {
             <svg className="wiper" viewBox="0 0 100 100">
                 <circle className="wiperLeft" cx="50" cy="50" r="50" />
             </svg>
-            <div className={ `line lineLeft grow ${shakingLeft}` } style={{ transform: `rotate(calc( atan(${width/height})))` }}></div>
-            <div className={ `line lineRight grow ${shakingRight}` } style={{ transform: `rotate(calc(180deg + atan(${width/height})))` }}></div>
+            <div className={ `line lineLeft grow` } style={{ transform: `rotate(calc( atan(${width/height})))` }}></div>
+            <div className={ `line lineRight grow` } style={{ transform: `rotate(calc(180deg + atan(${width/height})))` }}></div>
         </div>
     )
 }
